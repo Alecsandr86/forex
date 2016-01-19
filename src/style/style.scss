@@ -17,15 +17,34 @@
 //  }
 //}
 
-i{
-  display: inline-block;
-}
+
+
+
 body{
 
 }
-h1{
 
+i{
+  display: inline-block;
 }
+
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+
+.both:after {
+  clear: both;
+  content: "";
+  display: block;
+  float: none;
+  margin: 0;
+  padding: 0;
+}
+
+
 
 
 
@@ -33,12 +52,84 @@ h1{
 /********************************
 *       ОСНОВНЫЕ СТИЛИ
 ********************************/
+section{
+  p{
+    b{
+      font-weight: 500;
+    }
+    color: #323232;
+    line-height: 29px !important;
+  }
+}
+.h1{
+  font-size: 42px;
+  text-align: center;
+  color: #0a4c7f;
+  background-image: none!important;
+  padding: 9px 0 0 !important;
+}
+
+.article{
+  position: relative;
+  min-height:381px;
+  margin: 0 0 60px;
+  img{
+    position: absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+  }
+}
+.title-article{
+  position: absolute;
+  margin:0 0 0 68px;
+  padding: 52px 48px;
+  z-index:2;
+  width:360px;
+
+  height:100%;
+  background-color: rgba(235, 235, 235, 0.9);
+  line-height: 29px;
+  h4{
+    font-size: 24px;
+    color: #7c953e;
+
+    padding: 0 0 22px;
+  }
+  p{
+    color: #323232;
+    font-weight: 300;
+    line-height: 29px;
+  }
+}
 
 
+.bg-gray{
+  background-color: #ececec;
+  padding: 39px 0;
+  margin: 76px 0;
 
+}
+.successful{
+  figure{
+    width:44%;
+    margin:0;
+  }
+  .figcaption{
+    width: 52%;
+    margin: 0;
+    padding: 32px 4px 0;
+  }
+}
+figure{
+  img{
+    width: 100%;
+  }
+}
+.figcaption{
 
-
-
+}
 
 
 

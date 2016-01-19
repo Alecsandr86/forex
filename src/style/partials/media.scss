@@ -1,4 +1,42 @@
-@media screen and(max-width: 1200px){
+@media screen and(max-width: 899px){
+  .article {
+    min-height: 300px;
+  }
+  .title-article {
+    padding: 30px 5%;
+    width: 42%;
+  }
+  .successful {
+    .figcaption {
+      padding: 0;
+    }
+  }
+}
+@media screen and(max-width: 650px){
+  .title-article{
+    h4 {
+      font-size: 18px;
+    }
+  }
+}
+@media screen and(max-width: 580px){
+  .title-article{
+    display: none;
+  }
+  .article {
+    min-height: 170px;
+  }
+  .successful {
+    .figcaption{
+      float: none;
+      width:100%;
+    }
+    figure{
+      float: none;
+      width:80%;
+      margin:0 auto 20px;
+    }
+  }
+
 
 }
-
