@@ -3,6 +3,7 @@
 *********************************/
 
 @import "../../bower_components/normalize.css/normalize.css";
+@import "../../bower_components/animate.css/animate.min.css";
 
 @import "partials/sprite";
 
@@ -130,6 +131,80 @@ figure{
 .figcaption{
 
 }
+
+
+.wr-table{
+  vertical-align: middle;
+  padding: 17px 0 0;
+  table{
+    min-width:950px;
+    border-left: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    text-align: left;
+  }
+  tr {
+    &:nth-child(odd){
+      td{
+        background-color: #ededed;
+      }
+    }
+    td {
+      &:first-child {
+        padding-left: 30px;
+        color: #323232;
+      }
+    }
+  }
+  th{
+    vertical-align: middle;
+    padding: 26px 0;
+    background-color: #376097;
+    border: none;
+    text-transform: uppercase;
+  }
+  td{
+    vertical-align: middle;
+    border: none;
+    padding:19px 0;
+  }
+}
+.offer{
+
+}
+.list-offer{
+  text-align: center;
+
+  li{
+    display: inline-block;
+    width:33%;
+    vertical-align: top;
+  }
+  i{
+
+  }
+  p{
+    font-weight: 500;
+    padding: 20px 0 28px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.hidden{
+  visibility: hidden;
+}
+
+
+
 
 
 

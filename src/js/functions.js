@@ -221,7 +221,12 @@ jQuery(document).ready(function($) {
 		imgAlign();
 		$('.bg_image').css('min-height', $('.img_info').innerHeight() + 'px');
 	});
-	
-	
-	
+
+
+
+    new WOW().init({
+        mobile: false
+    });
+
+
 });
