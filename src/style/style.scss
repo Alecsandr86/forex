@@ -1,0 +1,49 @@
+/********************************
+*      ДОПОЛНИТЕЛЬНЫЕ СТИЛИ
+*********************************/
+
+@import "../../bower_components/normalize.css/normalize.css";
+
+@import "partials/sprite";
+
+@include sprites($spritesheet-sprites);
+//hover спрайта
+
+
+//.icon {
+//  @include sprite($icon);
+//  &:hover {
+//    @include sprite($icon-hover);
+//  }
+//}
+
+i{
+  display: inline-block;
+}
+body{
+
+}
+h1{
+
+}
+
+
+
+
+/********************************
+*       ОСНОВНЫЕ СТИЛИ
+********************************/
+
+
+
+
+
+
+
+
+
+/*************************
+*     КАСТОМНЫЕ СТИЛИ
+**************************/
+
+@import "partials/media";
